@@ -15,7 +15,7 @@ let tmr: tmrm.TaskMockRunner = new tmrm.TaskMockRunner(taskPath);
 tmr.setInput('authType', 'ApiKey');
 tmr.setInput('apiKeyId', 'D383SF739');
 tmr.setInput('apiKeyIssuerId', '6053b7fe-68a8-4acb-89be-165aa6465141');
-tmr.setInput('apitoken', 'dummy_stringLS0tLUVORCBQUklWQVRFIEtFWS0tLS0t');
+tmr.setInput('apitoken', 'dummy_string');
 tmr.setInput('appIdentifier', 'com.microsoft.test.appId');
 tmr.setInput('chooseBuild', 'latest');
 tmr.setInput('shouldAutoRelease', 'true');
